@@ -84,7 +84,7 @@ GIT_VERSION := $(shell git describe --abbrev=4 --dirty --always --tags)
 
 FQBN        ?= esp32:esp32:esp32doit-devkit-v1
 # IOT_NAME    ?= esp32-d8bc38fcb30c
-IOT_NAME    ?= esp32-magnac
+IOT_NAME    ?= esp32-ondine
 IOT_IP      ?= 192.168.1.25
 OTA_PORT    ?= 3232
 #OTA_PASS   ?=

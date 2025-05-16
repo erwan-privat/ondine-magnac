@@ -23,6 +23,6 @@ void setup()
 void loop()
 {
   IPAddress ip = WiFi.localIP();
-  eplogf("%d.%d\n", ip[2], ip[3]);
+  eplogf("IP: %d.%d\n", ip[2], ip[3]);
   delay(1000);
 }

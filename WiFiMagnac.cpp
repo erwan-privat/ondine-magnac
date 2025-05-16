@@ -4,7 +4,7 @@
 
 namespace WiFiMagnac
 {
-  // Must delcare/define
+  // Must declare/define
   // constexpr char ssid[] = "";
   // constexpr char pass[] = "";
   // constexpr char host[] = "";

@@ -1,0 +1,4 @@
+Library Name                        Version    Author                    Architecture    Type
+----------------------------------- ---------- ------------------------- --------------- -------
+ArduinoOTA                          3.0.5      Ivan Grokhotkov and Hrist esp32           system
+WiFi                                3.0.5      Hristo Gochkov            esp32           system

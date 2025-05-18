@@ -5,8 +5,8 @@
 
 namespace Ecran
 {
-  constexpr auto PIN_SCL = 22;
-  constexpr auto PIN_SDA = 21;
+  constexpr auto pin_scl = 22;
+  constexpr auto pin_sda = 21;
 
   // U8G2    // nom de la bibliothèque
   // SSD1306 // contrôleur

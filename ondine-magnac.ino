@@ -2,10 +2,11 @@
 // https://github.com/erwan-privat/ondine-magnac
 
 #include "EpUtil.h"
-#include "Ota.h"
-#include "Heure.h"
 #include "Ecran.h"
 #include "WiFiMagnac.h"
+#include "Ota.h"
+#include "Heure.h"
+#include "Relais.h"
 
 #include <WiFi.h>
 
@@ -20,6 +21,7 @@ void setup()
   WiFiMagnac::begin();
   Ota::begin();
   Heure::begin();
+  Relais::begin();
 
   eplog("Ondine !");
 }
@@ -27,6 +29,6 @@ void setup()
 void loop()
 {
   IPAddress ip = WiFi.localIP();
-  eplogf("IP: %d.%d\r", ip[2], ip[3]);
+  eplogf("IP: %d.%d; relay: %d\r", ip[2], ip[3], Relais::is_on);
   delay(1000);
 }

@@ -182,7 +182,7 @@ namespace Ecran
         }
       } while (screen.nextPage());
 
-      delay(1000);
+      delay(100);
       ++counter;
     }
   }
